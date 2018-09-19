@@ -20,7 +20,11 @@ function urxvtnotify_precmd {
         # Support TERM "fixing"
         return
     fi
+    if (( urxvtnotify_timestamp == 0 )); then
+       return
+    fi
     local elapsed=$(( EPOCHREALTIME - urxvtnotify_timestamp ))
+    urxvtnotify_timestamp=0
     if (( elapsed > 3 )); then
         if (( elapsed > 3600 )); then
             elapsedStr=$(TZ=GMT; strftime '%H:%M:%S' $(( int(rint(elapsed)) )))
