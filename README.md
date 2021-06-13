@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/lpenz/zsh-notify-urxvt.png?branch=master)](https://travis-ci.com/lpenz/zsh-notify-urxvt) 
+[![CI](https://github.com/lpenz/zsh-notify-urxvt/actions/workflows/ci.yml/badge.svg)](https://github.com/lpenz/zsh-notify-urxvt/actions/workflows/ci.yml)
 
 zsh-notify-urxvt
 ================
