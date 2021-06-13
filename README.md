@@ -24,7 +24,7 @@ This is, in essence, a companion zsh plugin for [urxvt-ext-notify-osc](https://g
 
 ## Installation
 
-Usingn zplug:
+Using zplug:
 
 ```shell
 zplug "lpenz/zsh-notify-urxvt"
