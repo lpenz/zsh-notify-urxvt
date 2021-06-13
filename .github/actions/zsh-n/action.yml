@@ -1,0 +1,6 @@
+---
+name: zsh-n
+description: "Run zsh -n **/*.zsh"
+runs:
+  using: docker
+  image: Dockerfile
