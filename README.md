@@ -24,6 +24,13 @@ This is, in essence, a companion zsh plugin for [urxvt-ext-notify-osc](https://g
 
 ## Installation
 
+Using zinit:
+
+```shell
+zinit ice lucid wait'0'
+zinit load 'lpenz/zsh-notify-urxvt'
+```
+
 Using zplug:
 
 ```shell
