@@ -27,7 +27,7 @@ This is, in essence, a companion zsh plugin for [urxvt-ext-notify-osc](https://g
 Using zinit:
 
 ```shell
-zinit ice lucid wait'0'
+zinit ice lucid wait'0' ver'main'
 zinit load 'lpenz/zsh-notify-urxvt'
 ```
 
